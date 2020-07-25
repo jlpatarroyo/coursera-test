@@ -1,0 +1,8 @@
+IMPORTANT: Takes into account Capital letters for filtering!
+<ol>
+  <li ng-repeat="item in list.menuItems">
+    <span>{{item.name}}</span>
+    <button ng-click="list.removeItem({index:$index})">Don't want this one
+    </button>
+  </li>
+</ol>
